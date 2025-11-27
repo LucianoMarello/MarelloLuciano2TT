@@ -1,0 +1,6 @@
+CREATE TABLE Alumno (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100) NOT NULL,
+    Edad INT NOT NULL
+);
+
